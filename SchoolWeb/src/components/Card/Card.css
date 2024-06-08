@@ -1,0 +1,66 @@
+.card {
+  width: 199px;
+  height: 188px;
+  margin: 20px;
+  border-radius: 4px 0px 0px 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  display: flex;
+  flex-flow: column;
+}
+
+.card-text {
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  margin: 5px;
+}
+
+.classroom-name {
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29.38px;
+  text-align: left;
+}
+
+.seats-left {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+}
+
+.grey-total-seats {
+  font-family: Heebo;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.56px;
+  text-align: left;
+  color: #8f8f8f;
+}
+
+.card-buttons {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.student-list-button {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+}
+
+.delete-icon {
+  background: #3f50b5;
+}
+
+.seats-left-bold {
+  font-weight: bold;
+}
