@@ -20,5 +20,6 @@
 
 .svg-background {
   background-color: #3f50b5;
+  cursor: pointer;
   border: none;
 }
